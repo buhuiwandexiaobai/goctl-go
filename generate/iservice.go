@@ -17,8 +17,8 @@ package generate
 import (
 	"path/filepath"
 
+	"github.com/buhuiwandexiaobai/goctl-go/template"
 	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/zeromicro/goctl-android/template"
 )
 
 type (
@@ -41,7 +41,7 @@ type (
 	}
 	IService struct {
 		ParentPackage string
-		Import        string
+		Import        string ``
 		Routes        []*Route
 	}
 )

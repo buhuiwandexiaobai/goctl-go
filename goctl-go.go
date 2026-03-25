@@ -19,8 +19,8 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/buhuiwandexiaobai/goctl-go/action"
 	"github.com/urfave/cli/v2"
-	"github.com/zeromicro/goctl-android/action"
 )
 
 var (

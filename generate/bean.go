@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/buhuiwandexiaobai/goctl-go/template"
 	"github.com/tal-tech/go-zero/tools/goctl/util"
 	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
-	"github.com/zeromicro/goctl-android/template"
 )
 
 type (
